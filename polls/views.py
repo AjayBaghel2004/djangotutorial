@@ -1,6 +1,6 @@
-from django.http import HttpsResponse
+from django.http import HttpResponse
 
 def index(request):
-    return HttpsResponse("Hello, world. You are at the polls index.")
+    return HttpResponse("Hello, world. You are at the polls index.")
 
 
